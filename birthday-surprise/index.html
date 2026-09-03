@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ff4f9a">
+  <title>Happy Birthday, My Love ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="hearts" aria-hidden="true"></div>
+
+  <!-- Loading screen -->
+  <section id="loader" class="screen active">
+    <div class="loader-card">
+      <div class="heart-loader">♥</div>
+      <h1>Initializing Birthday Surprise...</h1>
+      <div class="loading-lines">
+        <p>Loading Memories <span>.................</span> <b>30%</b></p>
+        <p>Loading Love <span>....................</span> <b>60%</b></p>
+        <p>Loading Happiness <span>................</span> <b>90%</b></p>
+        <p>Almost Ready <span>...................</span> <b>100%</b></p>
+      </div>
+      <div class="progress"><span></span></div>
+      <p class="access">Access Granted: <strong>My Special Girl ❤️</strong></p>
+    </div>
+  </section>
+
+  <!-- Main app -->
+  <main id="app" class="hidden">
+    <!-- Welcome -->
+    <section id="welcome" class="page active-page">
+      <div class="hero-glow"></div>
+      <div class="welcome-card">
+        <p class="eyebrow">A little something made with love</p>
+        <h1>Hey <span class="her-name">Beautiful</span> ❤️</h1>
+        <p>I made something special for you...</p>
+        <div class="envelope-wrap">
+          <div class="envelope">
+            <div class="envelope-flap"></div>
+            <div class="envelope-heart">♥</div>
+          </div>
+        </div>
+        <button class="primary-btn" data-next="letter">Open Your Surprise 🎁</button>
+        <p class="tiny">Made just for you • 4 September 💕</p>
+      </div>
+    </section>
+
+    <!-- Letter -->
+    <section id="letter" class="page">
+      <div class="paper">
+        <span class="paper-heart">♥</span>
+        <p class="eyebrow">A message from my heart</p>
+        <h2>Happy Birthday, My Love! ❤️</h2>
+        <p>On this special day, I just want you to know how much you mean to me.</p>
+        <p>You bring so much happiness, laughter and positivity into my life. I’m truly grateful for every little moment we share.</p>
+        <p>May this year bring you all the success, peace, joy and love you deserve. Keep smiling always, because your smile is one of my favorite things in this world.</p>
+        <p class="signature">I Love You ❤️<br><small>Today and always...</small></p>
+        <button class="primary-btn" data-next="memories">Continue ❤️</button>
+      </div>
+    </section>
+
+    <!-- Memories -->
+    <section id="memories" class="page">
+      <div class="section-inner">
+        <p class="eyebrow">Little pieces of us</p>
+        <h2>Our Memories 💕</h2>
+        <p class="subtitle">Replace these sample images with your favorite photos.</p>
+        <div class="memory-grid">
+          <article class="memory-card">
+            <img src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=900&q=80" alt="Couple holding hands">
+            <div><h3>Together ❤️</h3><p>Every moment with you feels special.</p></div>
+          </article>
+          <article class="memory-card">
+            <img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=900&q=80" alt="Couple walking together">
+            <div><h3>Side by Side</h3><p>My favorite place is next to you.</p></div>
+          </article>
+          <article class="memory-card">
+            <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=900&q=80" alt="Happy couple">
+            <div><h3>Little Things 🌸</h3><p>The small moments become the best memories.</p></div>
+          </article>
+          <article class="memory-card">
+            <img src="https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=900&q=80" alt="Romantic couple">
+            <div><h3>You & Me ❤️</h3><p>Here’s to many more memories.</p></div>
+          </article>
+        </div>
+        <button class="primary-btn" data-next="reasons">Next Surprise ✨</button>
+      </div>
+    </section>
+
+    <!-- Reasons -->
+    <section id="reasons" class="page">
+      <div class="section-inner narrow">
+        <p class="eyebrow">Just a few reasons...</p>
+        <h2>Why You’re So Special ❤️</h2>
+        <p class="subtitle">And honestly, I could keep going forever.</p>
+        <div class="reasons">
+          <div class="reason"><span>01</span><p>You make ordinary days feel brighter. ☀️</p></div>
+          <div class="reason"><span>02</span><p>You believe in me and make me want to be better. 💪</p></div>
+          <div class="reason"><span>03</span><p>Your smile is genuinely one of my favorite things. 😊</p></div>
+          <div class="reason"><span>04</span><p>You are kind, caring and thoughtful. 🌸</p></div>
+          <div class="reason"><span>05</span><p>You bring so much happiness into my life. 🥰</p></div>
+          <div class="reason"><span>06</span><p>You are simply you — and that is more than enough. ❤️</p></div>
+        </div>
+        <button class="primary-btn" data-next="timeline">Keep Going 💕</button>
+      </div>
+    </section>
+
+    <!-- Timeline -->
+    <section id="timeline" class="page">
+      <div class="section-inner narrow">
+        <p class="eyebrow">Our story</p>
+        <h2>Special Moments 🥰</h2>
+        <div class="timeline">
+          <div class="timeline-item"><span>01</span><div><h3>The day we met</h3><p>A beautiful coincidence that became something special. ❤️</p></div></div>
+          <div class="timeline-item"><span>02</span><div><h3>Our first conversation</h3><p>I never knew a simple conversation could mean so much.</p></div></div>
+          <div class="timeline-item"><span>03</span><div><h3>When we became special</h3><p>Somewhere along the way, you became a huge part of my world. 💕</p></div></div>
+          <div class="timeline-item"><span>04</span><div><h3>All our silly moments</h3><p>Laughter, fun and memories I would never trade.</p></div></div>
+          <div class="timeline-item today"><span>♥</span><div><h3>Today — Your Birthday!</h3><p>Celebrating the beautiful person who makes my life happier.</p></div></div>
+        </div>
+        <button class="primary-btn" data-next="music">One More Thing 🎵</button>
+      </div>
+    </section>
+
+    <!-- Music -->
+    <section id="music" class="page">
+      <div class="music-card">
+        <p class="eyebrow">A song for you</p>
+        <h2>Because every moment with you feels like a song 🎶</h2>
+        <div class="album-art">
+          <div class="vinyl">♪</div>
+        </div>
+        <h3 id="songTitle">Our Special Song ❤️</h3>
+        <p class="subtitle">Add your song file as <b>song.mp3</b> in this folder.</p>
+        <audio id="audio" src="song.mp3" preload="metadata"></audio>
+        <div class="player">
+          <button id="playBtn" class="play-btn" aria-label="Play music">▶</button>
+          <div class="fake-progress"><span id="audioProgress"></span></div>
+          <span id="time">0:00</span>
+        </div>
+        <button class="secondary-btn" id="skipMusic">Skip to the Cake 🎂</button>
+        <button class="primary-btn" data-next="cake">Make a Wish 🎂</button>
+      </div>
+    </section>
+
+    <!-- Cake -->
+    <section id="cake" class="page">
+      <div class="cake-section">
+        <p class="eyebrow">Make a wish</p>
+        <h2>Click the candles ✨</h2>
+        <p class="subtitle">Close your eyes, make a wish, and tap each flame.</p>
+        <div class="cake">
+          <div class="candles">
+            <button class="candle" aria-label="Candle 1"><i></i></button>
+            <button class="candle" aria-label="Candle 2"><i></i></button>
+            <button class="candle" aria-label="Candle 3"><i></i></button>
+            <button class="candle" aria-label="Candle 4"><i></i></button>
+          </div>
+          <div class="cake-top">Happy Birthday ❤️</div>
+          <div class="cake-body"></div>
+          <div class="cake-plate"></div>
+        </div>
+        <p id="wishText" class="wish-text">4 candles • 4 wishes • unlimited happiness 💕</p>
+        <button id="cakeNext" class="primary-btn" disabled>Reveal the Final Surprise ✨</button>
+      </div>
+    </section>
+
+    <!-- Final -->
+    <section id="final" class="page">
+      <div class="final-card">
+        <div class="fireworks" aria-hidden="true">✦ ✧ ✦</div>
+        <p class="eyebrow">This is for you...</p>
+        <h1>Happy Birthday,<br><span>My Love! ❤️</span></h1>
+        <p>May all your dreams come true.</p>
+        <p>Keep shining, keep smiling, and keep being the amazing person you are.</p>
+        <p>I’m so lucky to have you in my life.</p>
+        <p>Here’s to another beautiful year of memories together. 🥂</p>
+        <button class="primary-btn" id="loveBtn">I Love You Forever 💖</button>
+        <button class="ghost-btn" data-next="secret">One More Surprise 👀</button>
+      </div>
+    </section>
+
+    <!-- Secret -->
+    <section id="secret" class="page">
+      <div class="secret-card">
+        <div class="secret-emoji">🥰</div>
+        <h2>You found the secret! 👀</h2>
+        <p class="subtitle">So here is something I want you to remember...</p>
+        <div class="secret-note">
+          <p>You are beautiful. ❤️</p>
+          <p>You are loved. ❤️</p>
+          <p>You are enough. ❤️</p>
+          <p>And you are my favorite person. ❤️</p>
+        </div>
+        <p class="signature">Thank you for being you. 💕</p>
+        <button class="primary-btn" data-next="welcome">Start Again ↻</button>
+      </div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast">❤️</div>
+  <script src="script.js"></script>
+</body>
+</html>
